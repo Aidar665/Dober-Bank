@@ -320,12 +320,12 @@ background: #dfb56d;
     background: #ccc;
 }
 
-..features__img-img{
+.features__img-img{
     position: absolute;
     left: 50%;
 }
 
-..features__item--theme--grey .features__img:before{
+.features__item--theme--grey .features__img:before{
     background: #a5a5a4;
 }
 
@@ -333,7 +333,7 @@ background: #dfb56d;
     background: #556180;
 }
 
-..features__item--theme--gold .features__img:before{
+.features__item--theme--gold .features__img:before{
     background: #978455;
 }
 
@@ -426,7 +426,6 @@ background: #353538;
     vertical-align: top;
     width: 488px;
     height: 502px;
-    background: ;
 }
 
 .about__content{
@@ -471,3 +470,39 @@ background: #353538;
     box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15)
 }
 
+.footer{
+    height: 152px;
+    position: relative;
+}
+
+.contacts__text{
+    color:#999;
+    font-size: 11px;
+}
+
+.socials__item{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:10px ;
+}
+
+.socials{
+    position: absolute;
+    top:53px;
+    right: 300px;
+}
+
+.socials__item:last-child{
+    margin-right:0;
+}
+
+.socials__link{
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+}
+
+.socials__item--telegram.socials__link{
+    background-image: url("");
+}
