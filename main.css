@@ -210,7 +210,6 @@ header{
 }
 
 .features__desc-value{
-    position: initial;
     display: inline-block;
     font-size: 36px;
     line-height: 49px;
@@ -219,6 +218,8 @@ header{
 
 .features__desc-text{
     display:inline block;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 .features__img{
@@ -385,32 +386,20 @@ background: #dfb56d;
     overflow: hidden;
 }
 
-.news__content__cover{
-    display: block;
+.news__content{
+    display: inline-block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: .4;
 }
 
-.news__date{
+.news__text-content{
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     padding: 25px 30px;
     min-height: 140px;
-}
-
-.news__date{
-    font-size: 15px;
-    margin: 18px;
-}
-
-.news__suptitle{
-    font-size: 24px;
-    margin-top: 18px;
-    text-transform: lowercase;
 }
 
 .paginator{
@@ -459,7 +448,7 @@ background: #353538;
     width: 770px;
     height: 400px;
     left: 600px;
-    top: 2450px;
+    top: 2250px;
     padding: 70px 80px;
     background: #202123;
     border-radius: 5px;
@@ -502,6 +491,7 @@ background: #353538;
 .footer{
     height: 152px;
     position: relative;
+    margin: 55px;
 } 
 .logo2{
     display: block;
@@ -579,9 +569,34 @@ background: #353538;
 }
 
 
-.socials__link{
+.socials__item--telegram{
     display: inline-block;
     text-decoration: none;
     width: 36px;
     height: 36px;
+}
+
+.socials__item--vk{
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;  
+}
+
+.socials__item--fb{
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;  
+}
+
+.socials__item--insta{
+    display: inline-block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;  
+}
+
+.wraper__main-page-wraper{
+    background: url(./img/фон.jpg) center
 }
