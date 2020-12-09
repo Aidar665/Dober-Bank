@@ -209,15 +209,17 @@ header{
     margin-right: 0;
 }
 
-.features__desc-value{
+.features__desc-block{
     display: inline-block;
+}
+
+.features__desc-value{
     font-size: 36px;
     line-height: 49px;
     height: 42px;
 }
 
-.features__desc-text{
-    display:inline block;
+    .features__desc-text{
     font-size: 16px;
     line-height: 21px;
 }
