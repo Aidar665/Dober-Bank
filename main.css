@@ -109,23 +109,37 @@ header{
     text-align: right;
 }
 
+.menu{
+        position: absolute;
+        top: 47px;
+        left: 261px;
+}
+    
+.contacts_1{
+        position: absolute;
+        top: 30px;
+        right: 0;
+        font-size: normal;
+        text-align: right;
+}
+
 .menu__item{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right:50px ;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right:50px ;
 }
-
+    
 .menu__item:last-child{
-    margin-right: 0;
+        margin-right: 0;
 }
-
+    
 .menu__link{
-    font-size: 14px;
-    text-decoration: none;
+        font-size: 14px;
+        text-decoration: none;
 }
-
+    
 .menu__link:hover{
-    color:#dfb56d
+        color:#dfb56d
 }
 
 .contacts_1{
@@ -209,11 +223,11 @@ header{
     margin-right: 0;
 }
 
-.features__desc-block{
-    display: inline-block;
+.features__desc{
+    width:48%
 }
 
-.features__desc-value{
+.features__desc-value-blok{
     font-size: 36px;
     line-height: 49px;
     height: 42px;
@@ -255,30 +269,36 @@ header{
     margin: 0;
 }
 
+.features__desc{
+    width:48%
+}
+
+
+.features__desc-value{
+    font-size: 36px;
+    line-height: 49px;
+    height: 42px;
+}
+
 .features__desc-text{
+    font-size: 16px;
+    line-height: 21px;
     color: #333;
 }
 
-.features__desc-block{
-    display: inline-block;
-}
-
 .features-button-colot--black{
-    position: absolute;
     width: 165px;
     height: 52px;
     left: 286px;
     top: 1100px;
 }
 .features-button2{
-    position: absolute;
     width: 165px;
     height: 52px;
     left: 675px;
     top: 1100px;
 }
 .features-button3{
-    position: absolute;
     width: 165px;
     height: 52px;
     left: 1064px;
@@ -290,6 +310,7 @@ header{
 }
 
 .features-button-colot--black{
+    position: absolute;
     background: #202123;
     border-radius: 4px;
     padding: 17px 38px;
@@ -306,6 +327,7 @@ background: #dfb56d;
 }
 
 .features-button2{
+    position: absolute;
     background: #dfb56d;
     border-radius: 4px;
     padding: 17px 38px;
@@ -322,6 +344,7 @@ background: #dfb56d;
 }
 
 .features-button3{
+    position: absolute;
     background: #202123;
     border-radius: 4px;
     padding: 17px 38px;
