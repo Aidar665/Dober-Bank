@@ -224,6 +224,11 @@ header{
 }
 
 .features__desc{
+    display:inline-block
+    
+}
+
+.features__desc-blok{
     width:48%
 }
 
