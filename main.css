@@ -273,24 +273,14 @@ header{
     margin:0;
 }
 
-.features-button-color--black{
-    width: 165px;
-    height: 52px;
-    left: 286px;
-    top: 1100px;
+.features__desc-block{
+    margin-bottom: 50px;
 }
-.features-button-color-blu{
-    width: 165px;
-    height: 52px;
-    left: 675px;
-    top: 1100px;
+
+.features__button-wrapper{
+    text-align: center;
 }
-.features-button-color-gold{
-    width: 165px;
-    height: 52px;
-    left: 1064px;
-    top: 1100px;
-}
+
 
 .news{
     margin-bottom: 55px;
