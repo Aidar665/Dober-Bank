@@ -103,12 +103,13 @@ header{
     left: 261px;
 }
 
-.contacts_1{
+.contacts{
     position: absolute;
     top: 30px;
     right: 0;
     font-size: normal;
     text-align: right;
+    display: grid;
 }
 
 .menu{
@@ -117,13 +118,6 @@ header{
         left: 261px;
 }
     
-.contacts_1{
-        position: absolute;
-        top: 30px;
-        right: 0;
-        font-size: normal;
-        text-align: right;
-}
 
 .menu__item{
         display: inline-block;
@@ -144,7 +138,7 @@ header{
         color:#dfb56d
 }
 
-.contacts_1{
+.contacts{
     font-size: normal;
     text-align: right;
 }
@@ -156,10 +150,7 @@ header{
 }
 
 .contacts__graf{
-    position: absolute;
-    width: 97px;
-    left: 60px;
-    top: 25px;
+    display: block;
     font-size: 13px;
     line-height: 20px;
     text-decoration: underline;
@@ -168,6 +159,7 @@ header{
 
 .preview{
     width: 400px;
+    margin-bottom: 120px;
 }
 
 .previw__title{
@@ -206,7 +198,7 @@ header{
 }
 
 .features{
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
 
 .features__title{
@@ -251,6 +243,10 @@ header{
     color: #010001;
 }
 
+.features__desc{
+    margin-bottom: 50px;
+}
+
 .features__desc-block{
     display: inline-block;
     vertical-align: top;
@@ -276,9 +272,6 @@ header{
     margin:0;
 }
 
-.features__desc-block{
-    margin-bottom: 50px;
-}
 
 .features__button-wrapper{
     text-align: center;
@@ -367,11 +360,6 @@ background: #dfb56d;
 }
 
 .news__title{
-    position: absolute;
-    width: 325px;
-    height: 49px;
-    left: 190px;
-    top: 1451px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -380,12 +368,17 @@ background: #dfb56d;
 }
 
 .news__item{
+    margin-right:22px;
     width:555px;
     display: inline-block;
     vertical-align: top;
     position: relative;
     border-radius: 4px;
     overflow: hidden;
+}
+
+.news__item:last-child{
+    margin: 0;
 }
 
 .news__content{
@@ -405,7 +398,17 @@ background: #dfb56d;
 }
 
 .paginator{
+    margin-top: 35px;
     text-align: center;
+}
+
+ul.paginator__list{
+    display: inline-block;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -440,17 +443,20 @@ background: #353538;
     line-height: 32px;
 }
 
-
-
 .about__content{
-    position: absolute;
-    width: 770px;
+    width: 795px;
     height: 400px;
-    left: 600px;
-    top: 2250px;
     padding: 70px 80px;
     background: #202123;
     border-radius: 5px;
+    display: inline-block;
+    margin-left: -150px;
+    margin-top: 150px;
+}
+
+img.about__img{
+    display: inline-block;
+    vertical-align: top;
 }
 
 .about__title{
@@ -491,6 +497,7 @@ background: #353538;
     height: 152px;
     position: relative;
     margin: 55px;
+    margin-bottom: 0;
 } 
 .logo{
     display: block;
@@ -501,17 +508,14 @@ background: #353538;
 
 .menu{
     position: absolute;
-    top: 47px;
+    top: 51px;
     left: 261px;
 }
 
 .contacts{
     position: absolute;
-    top: 30px;
-    right: 0;
-    font-size: normal;
-    text-align: right;
-}
+    top: 43px;
+    right: 0;}
 
 .menu__item{
     display: inline-block;
@@ -563,7 +567,7 @@ background: #353538;
 
 .socials{
     position: absolute;;
-    top:53px;
+    top:37px;
     right: 300px;
 }
 
