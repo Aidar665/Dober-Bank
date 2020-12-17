@@ -112,17 +112,10 @@ header{
     display: grid;
 }
 
-.menu{
-        position: absolute;
-        top: 47px;
-        left: 261px;
-}
-    
-
 .menu__item{
-        display: inline-block;
-        vertical-align: middle;
-        margin-right:50px ;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right:50px ;
 }
     
 .menu__item:last-child{
@@ -151,8 +144,8 @@ header{
 
 .contacts__graf{
     display: block;
-    font-size: 13px;
-    line-height: 5px;
+    font-size: 11px;
+    line-height: 0px;
     margin-right: 2px;
     text-decoration: underline;
     color: #dfb56d;
@@ -400,8 +393,11 @@ background: #dfb56d;
 }
 
 .paginator{
-    margin-top: 35px;
+    font-size: 14px;
+    margin-top: 86px;
     text-align: center;
+    margin-right: 70px;
+
 }
 
 ul.paginator__list{
@@ -444,6 +440,31 @@ background: #353538;
     font-weight: bold;
     line-height: 32px;
 }
+
+.inner-section__title{
+    position: absolute;
+    width: 225px;
+    height: 66px;
+    left: 67px;
+    top: 0px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 69px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.inner-section.inner-section--bg--grey{
+    position: absolute;
+    width: 1201px;
+    height: 364px;
+    left: 210px;
+    top: 1388px;
+    background: #fff;
+    color: #202123;
+    padding: 95px 0;}
 
 .about__content{
     width: 795px;
@@ -620,14 +641,39 @@ img.about__img{
 
 /*services page */
 
+.header__services{
+    height: 120px;
+    position: relative;
+    margin-bottom: 156px;
+}
+
+.logo__services{
+    margin-left: 265px;
+    display: block;
+    margin-top: 23px
+}
+
+.menu__services{
+    position: absolute;
+    top: 29px;
+    left: 468px;
+}
+
+.contacts__services{
+    position: absolute;
+    top: 16px;
+    right: 324px;
+    text-align: right;
+}
+
 
 .top-line{
-    min-height: 415px;
+    min-height: 328px;
     background: #202123;
     display: flex;
     flex-direction: column;
-    padding-bottom:25px ;
-    background: url("./img/lion-head-wide\ 1.png"); right:20% top
+    padding-bottom:40px ;
+    background: url("./img/lion-head-wide\ 1.png"); right:35% top
 }
 
 .top-line__container{
@@ -639,17 +685,15 @@ img.about__img{
 
 .page-title{
     position: absolute;
-    width: 258px;
+    width: 264px;
     height: 98px;
-    left: 250px;
-    top: 168px;
-    
+    left: 276px;
+    top: 122px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 72px;
-    line-height: 98px;
-    /* identical to box height */
+    font-size: 65px;
+    line-height: 93px;
     display: flex;
     align-items: flex-end;
     color: #FFFFFF;
@@ -660,19 +704,16 @@ img.about__img{
     position: absolute;
     width: 119px;
     height: 19px;
-    left: 250px;
-    top: 369.5px;
-    
+    left: 279px;
+    top: 293.5px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    /* identical to box height */
     display: flex;
     align-items: center;
     text-decoration-line: underline;
-    
     color: #9A9A9A;
 }
 
@@ -707,10 +748,10 @@ img.about__img{
 
 .page-content{
     position: absolute;
-width: 1200px;
-height: 1041px;
-left: 210px;
-top: 510px;
+    width: 1200px;
+    height: 1068px;
+    left: 212px;
+    top: 396px;
 
 }
 
@@ -718,40 +759,37 @@ top: 510px;
     position: absolute;
     top: 5px;
     display: flex;
-    left: 490px;
-    width: 561px;
-    height: 98px;
+    left: 485px;
+    width: 428px;
+    height: 97px;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 49px;
-    margin-bottom: 22px;
-    align-items: flex-end;
-    color: #202020;
+    font-size: 28px;
+    line-height: 48px;
+    color: #202020
 }
 
 .service__desc-car{
     position: absolute;
-width: 652px;
-height: 136px;
-left: 490px;
-top: 150px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 27px;
-/* or 169% */
-display: flex;
-align-items: center;
-color: #303030;
+    width: 580px;
+    height: 96px;
+    left: 479px;
+    top: 150px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    color: #303030;
 }
 
 .btm_car{
     position: absolute;
-    width: 165px;
-    height: 52px;
-    left: 490px;
-    top: 345px;
+    width: 133px;
+    height: 42px;
+    left: 480px;
+    top: 278px;
     background: #202123;
     border-radius: 4px;
     padding: 17px 38px;
@@ -760,7 +798,7 @@ color: #303030;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .btm_car:hover{
@@ -769,53 +807,51 @@ color: #303030;
 
 .services__title-fem{
     position: absolute;
-width: 510px;
-height: 98px;
-left: 490px;
-top:550px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 49px;
-display: flex;
-align-items: flex-end;
-color: #202020;
+    width: 448px;
+    height: 98px;
+    left: 481px;
+    top: 401px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    display: flex;
+    align-items: flex-end;
+    color: #202020;
 }
 
 .service__desc-fem{
     position: absolute;
-width: 510px;
-height: 162px;
-left: 490px;
-top: 650px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 27px;
-/* or 169% */
-display: flex;
-align-items: center;
-color: #303030;
+    width: 441px;
+    height: 127px;
+    left: 480px;
+    top: 522px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #303030;
 }
 
 .btm-fem{
     position: absolute;
-    width: 165px;
-    height: 52px;
-    left: 490px;
-    top: 870px;
+    width: 132px;
+    height: 43px;
+    left: 481px;
+    top: 674px;
     background: #dfb56d;
     border-radius: 4px;
-    padding: 17px 38px;
+    padding: 15px 32px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
-
+    font-size: 11px;
 }
 
 .btm-fem:hover{
@@ -823,7 +859,7 @@ color: #303030;
 }
 
 .services__item{
-    margin-bottom: 200px;
+    margin-bottom: 45px;
 }
 
 .service__desc{
@@ -833,10 +869,10 @@ color: #303030;
 
 .inner-section{
     position: absolute;
-width: 1205px;
-height: 500px;
-left: 210px;
-top: 1653px;
+    width: 1205px;
+    height: 500px;
+    left: 210px;
+    top: 1653px;
     background: #fff;
     color:#202123;
     padding: 95px 0;
@@ -876,11 +912,34 @@ top: 1653px;
 
 .inner--footer{
     position: absolute;
-    width: 1515px;
-    height: 133px;
+    width: 1519px;
+    height: 118px;
     left: 0px;
-    top: 2190px;
-    
+    top: 1752px;
     background: #29282D;
+}
 
+.logo__services{
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 6px;
+}
+
+.menu__sevices{
+    position: absolute;
+    top: 47px;
+    left: 468px;
+}
+
+.socials__services{
+    position: absolute;
+    top: 37px;
+    right: 527px;
+}
+
+.contacts__services{
+    position: absolute;
+    top: 47px;
+    right: 322px;
 }
