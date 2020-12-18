@@ -85,38 +85,30 @@ img{
 }
 
 header{
+    padding-top: 45px;
     height: 120px;
     position: relative;
-    margin-bottom: 156px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.header__col{
+    display: flex;
+    align-items: center;
+}
+
+.header__col--aling--right{
+    justify-content:flex-end
 }
 
 .logo{
     display: block;
-    position: absolute;
-    top: 44px;
-    left: 0;
+    margin-right: 100px;
+
 }
 
-.menu{
-    position: absolute;
-    top: 47px;
-    left: 261px;
-}
-
-.contacts{
-    position: absolute;
-    top: 30px;
-    right: 0;
-    font-size: normal;
-    text-align: right;
-    display: grid;
-}
-
-.menu__item{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right:50px ;
-}
     
 .menu__item:last-child{
         margin-right: 0;
@@ -145,14 +137,14 @@ header{
 .contacts__graf{
     display: block;
     font-size: 11px;
-    line-height: 0px;
+    line-height: 1px;
     margin-right: 2px;
     text-decoration: underline;
     color: #dfb56d;
 }
 
 .preview{
-    width: 400px;
+    width: 38%;
     margin-bottom: 120px;
 }
 
@@ -201,15 +193,21 @@ header{
     margin-bottom: 48px;
 }
 
+.features__list{
+display: flex;
+justify-content: space-between;
+}
+
 .features__item{
     min-height: 470px;
     background: #fff;
     border-radius: 4px;
-    display: inline-block;
     margin-right: 22px;
     width: 362px;
     color: #010001;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .features__item:last-child{
@@ -239,14 +237,11 @@ header{
 
 .features__desc{
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.features__desc-block{
-    display: inline-block;
-    vertical-align: top;
-    width: 115px;
-    margin: 1px;
-}
+
 
 .features__desc-value{
     font-size: 36px;
@@ -268,7 +263,8 @@ header{
 
 
 .features__button-wrapper{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -522,18 +518,7 @@ img.about__img{
     margin: 55px;
     margin-bottom: 0;
 } 
-.logo{
-    display: block;
-    position: absolute;
-    top: 44px;
-    left: 0;
-}
 
-.menu{
-    position: absolute;
-    top: 51px;
-    left: 261px;
-}
 
 .contacts{
     position: absolute;
@@ -639,8 +624,6 @@ img.about__img{
     background: url("./img/lion-head-wide\ 1.png") right 30% top no-repeat
 }
 
-/*services page */
-
 .header__services{
     height: 120px;
     position: relative;
@@ -655,7 +638,7 @@ img.about__img{
 
 .menu__services{
     position: absolute;
-    top: 29px;
+    top: 48px;
     left: 468px;
 }
 
