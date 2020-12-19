@@ -88,7 +88,7 @@ header{
     padding-top: 45px;
     height: 120px;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 106px;
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -438,30 +438,21 @@ background: #353538;
 }
 
 .inner-section__title{
-    position: absolute;
-    width: 225px;
-    height: 66px;
-    left: 67px;
-    top: 0px;
-    font-family: Open Sans;
-    font-style: normal;
+    flex: 48px;
     font-weight: bold;
-    font-size: 45px;
-    line-height: 69px;
-    display: flex;
-    align-items: flex-end;
+    margin-bottom: 50px;
+    font-size: xx-large;
 }
 
 .inner-section.inner-section--bg--grey{
-    position: absolute;
-    width: 1201px;
-    height: 364px;
-    left: 210px;
-    top: 1388px;
+    height: 479px;
+    left: 2px;
+    top: 1288px;
     background: #fff;
     color: #202123;
-    padding: 95px 0;}
-
+    padding: 95px 217px;
+    width: auto;
+}
 .about__content{
     width: 795px;
     height: 400px;
@@ -519,11 +510,6 @@ img.about__img{
     margin-bottom: 0;
 } 
 
-
-.contacts{
-    position: absolute;
-    top: 43px;
-    right: 0;}
 
 .menu__item{
     display: inline-block;
@@ -651,6 +637,7 @@ img.about__img{
 
 
 .top-line{
+    Font:Open Sans;
     min-height: 328px;
     background: #202123;
     display: flex;
@@ -672,7 +659,6 @@ img.about__img{
     height: 98px;
     left: 276px;
     top: 122px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
@@ -689,7 +675,6 @@ img.about__img{
     height: 19px;
     left: 279px;
     top: 293.5px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -757,7 +742,6 @@ img.about__img{
     height: 96px;
     left: 479px;
     top: 150px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -794,7 +778,6 @@ img.about__img{
     height: 98px;
     left: 481px;
     top: 401px;
-    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -809,8 +792,7 @@ img.about__img{
     width: 441px;
     height: 127px;
     left: 480px;
-    top: 522px;
-    font-family: Open Sans;
+    top: 522px;;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
