@@ -504,11 +504,21 @@ img.about__img{
 }
 
 .footer{
-    height: 152px;
+    padding-top: 0px;
+    height: 113px;
     position: relative;
-    
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 } 
+
+.menu {
+    margin-right: 341px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px
+}
 
 
 .menu__item{
@@ -546,9 +556,9 @@ img.about__img{
     position: absolute;
     right: 2px;
     width: 163px;
-    top: -15px;
-    color:#999;
-    font-size: 11px;
+    top: 65px;
+    color: #999;
+    font-size: 11px
 }
 
 .socials__item{
@@ -561,8 +571,8 @@ img.about__img{
 }
 
 .socials{
-    position: absolute;;
-    top:37px;
+    position: absolute;
+    top: 70px;
     right: 300px;
 }
 
@@ -623,16 +633,16 @@ img.about__img{
 }
 
 .menu__services{
-    position: absolute;
-    top: 48px;
-    left: 468px;
+position: absolute;
+top: 48px;
+left: 468px;
 }
 
 .contacts__services{
-    position: absolute;
-    top: 16px;
-    right: 324px;
-    text-align: right;
+position: absolute;
+top: 16px;
+right: 324px;
+text-align: right;
 }
 
 
