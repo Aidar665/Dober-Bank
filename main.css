@@ -523,7 +523,6 @@ img.about__img{
 } 
 
 .menu {
-    
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -652,18 +651,15 @@ text-align: right;
 }
 
 .page-title{
-    position: absolute;
-    width: 264px;
-    height: 98px;
-    left: 276px;
-    top: 122px;
-    font-style: normal;
+    margin-top: -15%;
     font-weight: bold;
     font-size: 65px;
     line-height: 93px;
     display: flex;
     align-items: flex-end;
     color: #FFFFFF;
+    margin-left: 70px;
+    margin-bottom: 59px;
     
 }
 
