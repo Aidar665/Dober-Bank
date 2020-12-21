@@ -142,16 +142,15 @@ header{
     font-size: 26px;
     margin-bottom: 4px;
 }
-
-.contacts__graf{
+.contacts__graf {
     display: block;
     font-size: 11px;
-    line-height: 1px;
-    margin-right: 2px;
+    line-height: 13px;
+    margin-right: 0px;
     text-decoration: underline;
     color: #dfb56d;
+    margin-left: 72px;;
 }
-
 .preview{
     width: 38%;
     margin-bottom: 120px;
@@ -612,8 +611,6 @@ img.about__img{
 }
 
 
-
-
 .top-line{
     font-family: Open Sans;
     min-height: 328px;
@@ -726,7 +723,7 @@ img.about__img{
     background: #dfb56d;
     }
 
-    .services__title-fem{
+.services__title-fem{
         margin-left: 20px;
         font-style: normal;
         font-weight: bold;
@@ -734,7 +731,7 @@ img.about__img{
         line-height: 49px;
         display: flex;
         color: #202020;
-    }
+}
     
 .service__desc-fem{
     margin-left: 20px;
@@ -811,11 +808,8 @@ img.about__img{
 }
 
 .inner--footer{
-
     background: #29282D;
 }
-
-
 
 
 /*welcome page*/   
