@@ -567,9 +567,6 @@ img.about__img{
     margin-right: 0;
 }
 
-.socials{
-
-}
 
 
 .socials__item--telegram{
@@ -607,31 +604,14 @@ img.about__img{
 
 /*  services page */
 
-
-
-.header__services{
-    height: 120px;
-    position: relative;
-    margin-bottom: 156px;
+.header__col{
+    margin-bottom: 4%;
+    margin-left: 6%;
+    display: flex;
+    align-items: center;
 }
 
-.logo__services{
-    margin-left: 65px;
-    margin-top: 30px;
-}
 
-.menu__services{
-position: absolute;
-top: 48px;
-left: 468px;
-}
-
-.contacts__services{
-position: absolute;
-top: 16px;
-right: 324px;
-text-align: right;
-}
 
 
 .top-line{
@@ -747,11 +727,7 @@ text-align: right;
     }
 
     .services__title-fem{
-        position: relative;
-        width: 448px;
-        height: 98px;
-        left: 27px;
-        top: -10px;
+        margin-left: 20px;
         font-style: normal;
         font-weight: bold;
         font-size: 36px;
@@ -761,22 +737,17 @@ text-align: right;
     }
     
 .service__desc-fem{
-        position: relative;
-        width: 441px;
-        height: 127px;
-        left: 20px;
-        top: 50px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 21px;
-        display: flex;
-        align-items: center;
-        color: #303030;
+    margin-left: 20px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #303030;
     }
 
 .btm-fem{
-    margin-top: 113px;
+    margin-top: 30px;
     background: #dfb56d;
     border-radius: 4px;
     padding: 15px 32px;
@@ -840,37 +811,11 @@ text-align: right;
 }
 
 .inner--footer{
-    position: absolute;
-    width: 1519px;
-    height: 118px;
-    left: 0px;
-    top: 1752px;
+
     background: #29282D;
 }
 
-.logo__services{
-    display: block;
-    position: absolute;
-    top: 16px;
-    left: 6px;
-}
 
-.menu__sevices{
-    position: absolute;
-    top: 47px;
-    left: 468px;
-}
-
-.socials__services{
-    position: absolute;
-    top: 37px;
-    right: 527px;
-}
-
-.contacts__services{
-    top: 36px;
-    right: 0px;
-}
 
 
 /*welcome page*/   
