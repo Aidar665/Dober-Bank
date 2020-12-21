@@ -514,10 +514,10 @@ img.about__img{
 } 
 
 .menu {
-    margin-right: 341px;
+    margin-right: 211px;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px
+    font-size: 14px;
 }
 
 
@@ -540,10 +540,6 @@ img.about__img{
     color:#dfb56d
 }
 
-.contacts{
-    font-size: normal;
-    text-align: right;
-}
 
 .contacts__phone{
     text-decoration: none;
@@ -552,14 +548,6 @@ img.about__img{
 }
  
 
-.contacts__text{
-    position: absolute;
-    right: 2px;
-    width: 163px;
-    top: 65px;
-    color: #999;
-    font-size: 11px
-}
 
 .socials__item{
     display:inline-block;
@@ -734,23 +722,18 @@ text-align: right;
 }
 
 .services__title-car{
-    position: absolute;
-    top: 5px;
-    display: flex;
-    left: 485px;
+    padding-left: 19px;
+    display: inline-flex;
     width: 428px;
-    height: 97px;
+    height: 100px;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 48px;
-    color: #202020
+    font-size: 27px;
+    line-height: 35px;
+    color: #202020;
 }
 
 .service__desc-car{
-    position: absolute;
-    width: 580px;
-    height: 96px;
-    left: 479px;
+    height: 125px;
     top: 150px;
     font-style: normal;
     font-weight: normal;
@@ -759,14 +742,14 @@ text-align: right;
     display: flex;
     align-items: center;
     color: #303030;
+    padding-left: 19px;
+
 }
 
 .btm_car{
-    position: absolute;
-    width: 133px;
-    height: 42px;
-    left: 480px;
-    top: 278px;
+    position: relative;
+    left: 24px;
+    top: 60px;
     background: #202123;
     border-radius: 4px;
     padding: 17px 38px;
@@ -774,7 +757,7 @@ text-align: right;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     font-size: 10px;
 }
 
@@ -783,26 +766,25 @@ text-align: right;
     }
 
 .services__title-fem{
-    position: absolute;
+    position: relative;
     width: 448px;
     height: 98px;
-    left: 481px;
-    top: 401px;
+    left: 27px;
+    top: -10px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 49px;
     display: flex;
-    align-items: flex-end;
     color: #202020;
 }
 
 .service__desc-fem{
-    position: absolute;
+    position: relative;
     width: 441px;
     height: 127px;
-    left: 480px;
-    top: 522px;;
+    left: 20px;
+    top: 50px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -813,11 +795,11 @@ text-align: right;
 }
 
 .btm-fem{
-    position: absolute;
+    position: relative;
     width: 132px;
     height: 43px;
-    left: 481px;
-    top: 674px;
+    left: 20px;
+    top: 65px;
     background: #dfb56d;
     border-radius: 4px;
     padding: 15px 32px;
@@ -834,6 +816,7 @@ text-align: right;
 }
 
 .services__item{
+    display: flex;
     margin-bottom: 45px;
 }
 
