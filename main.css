@@ -412,6 +412,24 @@ ul{
 }
 
 
+.paginator{
+    font-size: 14px;
+    margin-top: 86px;
+    text-align: center;
+    margin-right: 70px;
+
+}
+
+ul.paginator__list{
+    display: inline-block;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
 .paginator__item{
     display: inline-block;
     
@@ -428,7 +446,7 @@ ul{
     vertical-align: middle;
 }
 
-.paginator__display-current.paginator__link{
+.paginator__link:hover{
     background: #353538;
 }
 
