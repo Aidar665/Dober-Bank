@@ -664,7 +664,7 @@ img.about__img{
     font-size: 14px;
 }
 
-.page-content.services:hover{
+.services__item:hover{
     background: #f4f5f5;
     color: #818181;
 }
