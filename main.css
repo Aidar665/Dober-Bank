@@ -876,7 +876,7 @@ img.about__img{
     }
 }
 
-/* serviews page */
+/*reviews page */
 
 .reviews{
     column-count: 2;
@@ -894,7 +894,7 @@ img.about__img{
     background: #f4f5f5;
 }
 
-.reviw__header{
+.review__header{
     display: flex;
     align-items: center;
     margin-bottom: 30px;
@@ -921,7 +921,7 @@ height: 29px;
     border-radius: 50%;
 }
 
-.review__tags{
+.review__tag{
     display: flex;
     align-items: flex-start;
 }
@@ -935,8 +935,8 @@ height: 29px;
     background: #e6e6e6;
 }
 
-.tag--bg--green{
-    background: #c7e9d0;
+.tag--bg--green:hover{
+    background: #B9EAE4;
 }
 
 .review__title{
@@ -951,6 +951,7 @@ height: 29px;
     margin-bottom:50px;
 }
 
+
 .review__date{
     font-size: 14px;
     color: #202123;
@@ -958,7 +959,7 @@ height: 29px;
 }
 
 .separator{
-    background:#E5C288 url(./img/phone-n-hand\ 1.png) right 27% bottom 108%;
+    background:#E5C288 url(./img/phone-n-hand\ 1.png)right 20% bottom 116% no-repeat ;
     min-height: 320px;
     display: flex;
     flex-direction: column;
@@ -971,7 +972,7 @@ height: 29px;
 }
 
 .separator__title{
-    flex: 48px;
+    font-size: 45px;
     font-weight: bold;
     line-height: 1.1;
 }
@@ -1004,10 +1005,10 @@ height: 29px;
 }
 
 .controls__elem{
-     cursor: pointer;
+    cursor: pointer;
 }
 
-.controls__checkbox:checked .controls__tag {
+.controls__checkbox:checked.controls__tag {
      background:#c7e9d0;
 }
 
@@ -1021,8 +1022,7 @@ height: 29px;
 }
 
 .form__controls-title{
-    width: 40%;
-    padding-left: 30px;
+    width: 36%;
 }
 
 .controls{
