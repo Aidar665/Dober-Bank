@@ -394,12 +394,12 @@ background: #dfb56d;
     min-height: 140px;
 }
 
-.paginator{
+.paginator-modifier{
+    margin-bottom: 60px;
     font-size: 14px;
     margin-top: 86px;
     text-align: center;
     margin-right: 70px;
-
 }
 
 ul.paginator__list{
@@ -412,7 +412,7 @@ ul{
 }
 
 
-.paginator{
+.paginator__paginator-modifier{
     font-size: 14px;
     margin-top: 86px;
     text-align: center;
@@ -619,7 +619,10 @@ img.about__img{
 
 /*  services page */
 
+.paginator-modifier{
 
+    color:#202020
+}
 
 .top-line{
     min-height: 328px;
@@ -885,7 +888,7 @@ img.about__img{
 }
 
 .review{
-    display: inline-flex;
+    display:flex;
     flex-direction: column;
     padding: 50px 30px;
     background: #f4f5f5;
@@ -906,7 +909,7 @@ img.about__img{
     margin-bottom: 11px;
 }
 
-.review__user::after{
+.review__user:after{
 content: url("./img/vk-blue\ 1.png");
 height: 29px;
 }
@@ -924,6 +927,7 @@ height: 29px;
 }
 
 .tag{
+    width: fit-content;
     font-size: 13px;
     color: #333;
     padding: 16px 16px;
@@ -943,7 +947,8 @@ height: 29px;
 }
 
 .riview__content-text{
-    margin-bottom: 50px;
+    color: #555;
+    margin-bottom:50px;
 }
 
 .review__date{
@@ -953,8 +958,8 @@ height: 29px;
 }
 
 .separator{
-    background: #e5c228 url("./img/phone-n-hand\ 1.png") right 27% bottom 108% no repeat;
-    min-height: 360px;
+    background:#E5C288 url(./img/phone-n-hand\ 1.png) right 27% bottom 108%;
+    min-height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -991,8 +996,8 @@ height: 29px;
 }
 
 .form__imput::placeholder{
-color: #666;
-}
+    color: #666;
+    }
 
 .form__imput--textaria{
     height: 232px;
