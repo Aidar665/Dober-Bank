@@ -888,9 +888,9 @@ img.about__img{
 }
 
 .review{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    padding: 50px 30px;
+    padding: 30px 30px;
     background: #f4f5f5;
 }
 
@@ -901,6 +901,7 @@ img.about__img{
 }
 
 .review__user{
+    text-decoration: none;
     display: flex;
     align-items: center;
     font-size: 24px;
