@@ -167,12 +167,12 @@ header{
     margin-bottom: 63px;
 }
 
-.button{
+.button-yellow{
     border: 1px solid transparent;
     outline: none;
 }
 
-.preview__button{
+.button-yellow{
     background: #dfb56d;
     border-radius: 4px;
     padding: 17px 38px;
@@ -184,7 +184,7 @@ header{
     font-size: 14px;
 }
 
-.preview__button:hover{
+.button-yellow:hover{
     background: #d3a556;
     box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15)
 }
@@ -278,7 +278,7 @@ header{
     margin-bottom: 55px;
 }
 
-.features-button-color--black{
+.button-black{
     background: #202123;
     border-radius: 4px;
     padding: 17px 38px;
@@ -290,44 +290,21 @@ header{
     font-size: 14px;
 }
 
-.features-button-color--black:hover{
-background: #dfb56d;
+.button-black:hover{
+    background: #d3a556;
+    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15)
 }
 
-.features-button-color-blu{
-    background: #dfb56d;
-    border-radius: 4px;
-    padding: 17px 38px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
+.button-black.button-silver{
+    background:#2B2B2B
 }
 
-.features-button-color-blu:hover{
-    background: #202123;
+.button-black.button-silver:hover{
+    background:#8E8E8E
 }
 
-.features-button-color-gold{
-    background: #202123;
-    border-radius: 4px;
-    padding: 17px 38px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-}
-
-.features-button-color-gold:hover{
-    background: #dfb56d;
-}
 
 .features__img::before{
-    content: "";
     width: 284px;
     height: 284px;
     display: block;
@@ -519,22 +496,7 @@ img.about__img{
 .about__text:last-child{
     margin: 0;
 }
-.about__button{
-    background: #dfb56d;
-    border-radius: 4px;
-    padding: 17px 38px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;;
-}
 
-.about__button:hover{
-    background: #d3a556;
-    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15)
-}
 
 .footer{
     padding-top: 0px;
@@ -720,22 +682,7 @@ img.about__img{
     width: 520px;
 }
 
-.btm_car{
-    margin-top: 25px;
-    background: #202123;
-    border-radius: 4px;
-    padding: 15px 27px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-flex;
-    font-size: 12px;
-}
 
-.btm_car:hover{
-    background: #dfb56d;
-    }
 
 .services__title-fem{
     margin-top: 10px;
@@ -758,22 +705,7 @@ img.about__img{
     margin-top: 25px;
     }
 
-.btm-fem{
-    margin-top: 8px;
-    background: #dfb56d;
-    border-radius: 4px;
-    padding: 15px 32px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 11px;
-}
 
-.btm-fem:hover{
-    background: #202123;
-}
 
 .services__item{
     margin-left: 1%;
