@@ -989,7 +989,7 @@ height: 29px;
     margin-bottom: 30px;
 }
 
-.form__imput{
+.form__input{
     flex: 1;
     margin-right: 30px;
     border-radius: 4px;
@@ -999,15 +999,15 @@ height: 29px;
     font-size: 18px;
     color: #202123;
 }
-.form__imput:last-child{
-    margin-right:0;
+.form__input:last-child{
+    margin-right:0px;
 }
 
-.form__imput::placeholder{
+.form__input::placeholder{
     color: #666;
     }
 
-.form__imput--textaria{
+.form__input--textaria{
     height: 232px;
 }
 
