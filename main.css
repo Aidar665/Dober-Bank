@@ -114,12 +114,12 @@ header{
 
     
 .menu__item:last-child{
-        margin-right: 0;
+    margin-right: 0;
 }
     
 .menu__link{
-        font-size: 14px;
-        text-decoration: none;
+    font-size: 14px;
+    text-decoration: none;
 }
     
 .menu__link:hover{
@@ -394,7 +394,9 @@ background: #dfb56d;
     min-height: 140px;
 }
 
-.paginator-modifier{
+
+
+.paginator{
     margin-bottom: 60px;
     font-size: 14px;
     margin-top: 86px;
@@ -411,8 +413,16 @@ ul{
     margin: 0;
 }
 
+.paginator-black{
+    color:#010001;
 
-.paginator__paginator-modifier{
+}
+
+.paginator-black .paginator__link:hover{
+    color: #fff;
+}
+
+.paginator{
     font-size: 14px;
     margin-top: 86px;
     text-align: center;
@@ -441,6 +451,8 @@ ul{
     vertical-align: middle;
 }
 
+
+ 
 .paginator__link{
     display: inline-block;
     vertical-align: middle;
@@ -469,13 +481,10 @@ ul{
 }
 
 .inner-section.inner-section--bg--grey{
-    height: 479px;
-    left: 2px;
-    top: 1288px;
-    background: #fff;
-    color: #202123;
     padding: 95px 217px;
     width: auto;
+    background: #fff;
+    color: #202123;
 }
 .about__content{
     width: 795px;
@@ -566,8 +575,9 @@ img.about__img{
 
 
 .contacts__phone{
+    display: block;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 28px;
     margin-bottom: 4px;
 }
  
@@ -618,11 +628,6 @@ img.about__img{
 
 
 /*  services page */
-
-.paginator-modifier{
-
-    color:#202020
-}
 
 .top-line{
     min-height: 328px;
@@ -888,7 +893,8 @@ img.about__img{
 }
 
 .review{
-    display: flex;
+    display: inline-flex;
+    margin-bottom: 20px;
     flex-direction: column;
     padding: 30px 30px;
     background: #f4f5f5;
