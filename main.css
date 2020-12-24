@@ -193,14 +193,15 @@ header{
 
 .text__time{
     font-size: 14px;
-    line-height: 15px;
-    font-weight: 10px;
+    line-height: 21px;
 
 }
 
 .text__breic{
     display: flex;
     justify-content: left;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 .dropdown:hover .dropdown__item{
