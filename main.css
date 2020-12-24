@@ -91,7 +91,7 @@ img{
 }
 
 header{
-    padding-top: 45px;
+    padding-top:45px;
     margin-bottom: 106px;
     display: flex;
     justify-content: space-between;
@@ -579,7 +579,6 @@ img.about__img{
 
 
 .footer{
-    margin-top: 43px;
     border-top-style: ridge;
     padding-top: 0px;
     height: 113px;
