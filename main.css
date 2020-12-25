@@ -579,7 +579,7 @@ img.about__img{
 
 
 .footer{
-    border-top-style: ridge;
+    border-top: ridge#F4F5F5;;
     padding-top: 0px;
     height: 113px;
     position: relative;
