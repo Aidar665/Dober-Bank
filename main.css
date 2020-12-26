@@ -1017,8 +1017,8 @@ height: 29px;
     color: #202123;
 }
 
-input:focus{border-color: red;}
-input:hover{border-color: red;}
+.form__input:focus{border-color: red;}
+.form__input:hover{border-color: red;}
 
 
 .form__input:last-child{
