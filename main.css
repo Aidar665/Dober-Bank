@@ -634,6 +634,7 @@ img.about__img{
 
 
 .socials__item--telegram{
+    background: url(./img/css_sprites.png) -10px -66px;
     display: inline-block;
     text-decoration: none;
     width: 36px;
@@ -641,6 +642,7 @@ img.about__img{
 }
 
 .socials__item--vk{
+    background: url(./img/css_sprites.png) -66px -66px;
     display: inline-block;
     text-decoration: none;
     width: 36px;
@@ -648,6 +650,7 @@ img.about__img{
 }
 
 .socials__item--fb{
+    background: url(./img/css_sprites.png) -10px -10px;
     display: inline-block;
     text-decoration: none;
     width: 36px;
@@ -655,6 +658,7 @@ img.about__img{
 }
 
 .socials__item--insta{
+    background: url(./img/css_sprites.png) -66px -10px;
     display: inline-block;
     text-decoration: none;
     width: 36px;
@@ -1076,4 +1080,3 @@ input:hover{border-color: red;}
 .form__btm .button.button-silver:last-child{
     margin-right: 0;
 }
-
